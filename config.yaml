@@ -1,0 +1,13 @@
+VERSION: 1.0.0
+NAME: "MSLESION_SEG"
+
+# Folder
+DOCKER_INPUT_FOLDER: "./inp/"
+PREPROCESS_FILE_FOLDER: "./preprocessed/"
+DOCKER_OUTPUT_FOLDER: "./out/"
+
+# Inference
+CHECKPOINT_NAME: "model_best"
+MODEL_FOLDER: "./checkpoints/"
+FOLD_NO: 2
+

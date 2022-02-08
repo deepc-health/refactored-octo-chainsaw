@@ -1,0 +1,12 @@
+inp/*
+out/*
+preprocessed/*
+
+./.*
+*.nii.gz
+
+*__pycache__*
+training_log*
+*_latest.model*
+*.png
+*.json
