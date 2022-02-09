@@ -3,6 +3,8 @@
 
 This repository contains the inference engine of nnUnet based Multiple Sceloris segmentation in the FLAIR sequence. The model is trained on data of a variety of data and does a good segmentation.  The inference engine is dockerized in to allow for plug and play approach for segmentation of NifTi data.
 
+<img width="637" alt="Example Screenshot" src="https://user-images.githubusercontent.com/23334003/153212469-78c8668c-3f5f-47c6-b2cd-dfd47cd423df.png">
+
 ----------------
 
 # Neural Network-Based Segmentation of MS Lesions in FLAIR Images
@@ -72,7 +74,7 @@ After processing is over the `<outdir>` has all the segmentation. The names of t
 
 ###  External Links
  - [Code Repo](https://github.com/deepc-health/refactored-octo-chainsaw)
- - [Docker Repo](https://github.com/deepc-health/refactored-octo-chainsaw) 
+ - [Docker Repo](https://hub.docker.com/r/aparida12/mslesion_seg) 
 --------------------------------
 --------------------------------
 
