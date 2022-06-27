@@ -132,7 +132,7 @@ dmypy.json
 *.nii.gz
 *.pkl
 
-*.txt
+# *.txt
 *.png
 *debug.json
 *.model

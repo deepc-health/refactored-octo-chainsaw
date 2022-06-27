@@ -10,7 +10,13 @@ cpu_count = multiprocessing.cpu_count()
 input_folder = config["DOCKER_INPUT_FOLDER"]
 input_files = glob.glob(input_folder+'/*.nii.gz')
 for file in input_files:
+    print("Preprocessing file: " + file)
     preprocess_singlefile(file, config["PREPROCESS_FILE_FOLDER"])
+
+input_files = glob.glob(config["PREPROCESS_FILE_FOLDER"]+'/*.nii.gz')
+for file in input_files:
+    print("Preprocessed file: " + file)
+
 
 output_folder = config["DOCKER_OUTPUT_FOLDER"] 
 model_folder = config["MODEL_FOLDER"]

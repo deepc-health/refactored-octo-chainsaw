@@ -1,0 +1,4 @@
+matplotlib
+nnunet
+SimpleITK==2.0.2 
+pyyaml
